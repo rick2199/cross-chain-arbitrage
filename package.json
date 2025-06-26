@@ -1,0 +1,42 @@
+{
+  "name": "cross-chain-arbitrage-2",
+  "version": "1.0.0",
+  "description": "Cross-chain arbitrage system between Avalanche and Sonic",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "tsx src/main.ts",
+    "watch": "tsx watch src/main.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "format": "prettier --write src/**/*.ts",
+    "format:check": "prettier --check src/**/*.ts"
+  },
+  "keywords": [
+    "arbitrage",
+    "cross-chain",
+    "defi",
+    "avalanche",
+    "sonic"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^24.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.35.0",
+    "@typescript-eslint/parser": "^8.35.0",
+    "dotenv": "^16.5.0",
+    "eslint": "^9.29.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "prettier": "^3.6.1",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "viem": "^2.31.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2"
+  }
+}
